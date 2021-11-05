@@ -92,35 +92,11 @@ h4 {
     font-family: quimby-gubernatorial, sans-serif;
 }
 
-.girls-laptop, 
-.college-student, 
-.group-pic {
-    width: 45%;
-    margin-left: 150px;
-    padding: 15px;
-}
-
-.pink-text-boxes {
-    display: flex;
-    justify-content: space-around;
-}
-
 h5 {
     font-family: 'futura-pt', sans-serif;
     color: #5a4748;
 }
 
-.early-grades, 
-.older-grades,
-.live-webinars,
-.rec-webinar,
-.start-loops,
-.loops-president {
-    max-width: 40%;
-    margin: 25px;
-    padding: 2px;
-    display: inline-grid;
-}
 
 .impact h4,
 .impact p, 
@@ -181,3 +157,66 @@ h5 {
     padding: 2px;
 }
 /*************Programs Page Styling************/
+/*************MEDIA QUERY 320PX***************/
+@media (min-width: 320px) {
+    .container {
+        width: 300px;
+    }
+
+    .girls-laptop,
+    .college-student,
+    .group-pic{
+        width: 80%;
+        margin-left: 25px;
+    }
+
+    .pink-text-boxes {
+        display: flex;
+        flex-direction: column;
+        text-align: -webkit-center;
+    }
+
+    .early-grades,
+    .older-grades,
+    .start-loops,
+    .loops-president,
+    .live-webinars,
+    .rec-webinar {
+        max-width: 85%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 5px;
+    }
+}
+/*************MEDIA QUERY 700PX**************/
+@media (min-width: 700px) {
+    .container {
+        width: 600px;
+    }
+
+    .girls-laptop, 
+    .college-student, 
+    .group-pic {
+        width: 45%;
+        margin-left: 150px;
+        padding: 15px;
+    }
+
+    .pink-text-boxes {
+        display: flex;
+        justify-content: space-around;
+        flex-direction: row;
+    }
+
+    .early-grades, 
+    .older-grades,
+    .live-webinars,
+    .rec-webinar,
+    .start-loops,
+    .loops-president {
+        max-width: 40%;
+        margin: 25px;
+        padding: 2px;
+        display: inline-grid;
+    }
+}
