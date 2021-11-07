@@ -1,11 +1,11 @@
+/******* Begin Universal Styling *******/
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-
-/*header styling*/
+/*Begin Header*/
 header {
     font-family: futura-pt-heavy, sans-serif;
     border-bottom-style: solid;
@@ -66,15 +66,25 @@ img {
   .showMenu {
     transform: translateY(0);
   }
-
-/* Header styling ends */
-
+/* End Header */
 
 
+/* Begin Footer */
 
 
-/*************Programs Page Styling************/
 
+/* End Footer */
+
+/******* End Universal Styling *******/
+
+/******* Begin Home Page *******/
+
+
+
+
+/******* End Home Page *******/
+
+/******* Begin Programs Page *******/
 .page-title h1 {
     text-align: center;
     display: flex;
@@ -167,7 +177,6 @@ h5 {
     color: #5a4748;
 }
 
-
 .impact h4,
 .impact p, 
 .code h4,
@@ -226,8 +235,18 @@ h5 {
 .build-network {
     padding: 2px;
 }
-/*************Programs Page Styling************/
-/*************MEDIA QUERY 320PX***************/
+/******* End Programs Page *******/
+
+/******* Begin Locations Page *******/
+
+
+
+
+/******* End Programs Page *******/
+
+
+/******* BEGIN MEDIA QUERIES *******/
+/* Begin 320px */
 @media (min-width: 320px) {
     .container {
         width: 300px;
@@ -258,7 +277,9 @@ h5 {
         margin-top: 5px;
     }
 }
-/*************MEDIA QUERY 700PX**************/
+/* End 320px */
+
+/* Begin 700px */
 @media (min-width: 700px) {
     .container {
         width: 600px;
@@ -290,3 +311,5 @@ h5 {
         display: inline-grid;
     }
 }
+/* End 700px */
+/******* END MEDIA QUERIES *******/
