@@ -3,6 +3,67 @@
     padding: 0;
     box-sizing: border-box;
 }
+/*header styling*/
+header {
+  font-family: futura-pt-heavy, sans-serif;
+  border-bottom-style: solid;
+  border-bottom-width: thick;
+  border-bottom-color: ae547b;
+}
+img{
+  width: 50%;
+  padding: 10px 10px 20px 35px;
+}
+
+.menuItem {
+  display: block;
+  margin: 2rem 4rem;
+  font-size: 1.5rem;
+  font-variant: small-caps;
+  color: #f29f9f;
+  text-decoration: none;
+}
+
+.menuItem:hover {
+  color:#ae547b;
+}
+
+.hamburger {
+  position: fixed;
+  z-index: 100;
+  top: 1rem;
+  right: 1rem;
+  padding: 4px;
+  border: none;
+  color: #f29f9f;
+  background: none;
+  cursor: pointer;
+}
+
+.closeIcon {
+  display: none;
+  color: #f29f9f;
+}
+
+
+.menu {
+  position: fixed;
+  transform: translateY(-100%);
+  transition: transform 0.2s;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 99;
+  color: #ae547b;
+  list-style: none;
+  padding-top: 4rem;
+}
+
+.showMenu {
+  transform: translateY(0);
+}
+
 /*************Programs Page Styling************/
 
 .page-title h1 {
@@ -99,14 +160,14 @@ h5 {
 
 
 .impact h4,
-.impact p, 
+.impact p,
 .code h4,
 .code p,
 .sisterhood h4,
 .sisterhood p,
 .build-sisterhood h4,
 .build-sisterhood p,
-.build-leadership h4, 
+.build-leadership h4,
 .build-leadership p,
 .build-career h4,
 .build-career p,
@@ -126,20 +187,20 @@ h5 {
 
 .build-sisterhood h4,
 .build-sisterhood p,
-.build-leadership h4, 
+.build-leadership h4,
 .build-leadership p,
 .build-career h4,
 .build-career p,
-.build-skills h4, 
+.build-skills h4,
 .build-skills p,
-.build-community h4, 
+.build-community h4,
 .build-community p,
 .build-network h4,
 .build-network p {
     max-width: 170px;
 }
 
-.impact, 
+.impact,
 .code,
 .sisterhood {
     padding: 4px;
@@ -151,8 +212,8 @@ h5 {
     padding: 2px;
 }
 
-.build-skills, 
-.build-community, 
+.build-skills,
+.build-community,
 .build-network {
     padding: 2px;
 }
@@ -194,8 +255,8 @@ h5 {
         width: 600px;
     }
 
-    .girls-laptop, 
-    .college-student, 
+    .girls-laptop,
+    .college-student,
     .group-pic {
         width: 45%;
         margin-left: 150px;
@@ -208,7 +269,7 @@ h5 {
         flex-direction: row;
     }
 
-    .early-grades, 
+    .early-grades,
     .older-grades,
     .live-webinars,
     .rec-webinar,
