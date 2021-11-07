@@ -1,0 +1,222 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*************Programs Page Styling************/
+
+.page-title h1 {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    font-family: futura-pt, sans-serif;
+    font-weight: 700;
+    color: white;
+    align-items: center;
+}
+
+body {
+    background-color: rgba(112, 112, 112, .25);
+}
+
+.container {
+    width: 600px;
+    max-width: 600px;
+    height: auto;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.element{
+    padding: 10px;
+    background: #ae547b;
+    color: white;
+    margin: 10px 0;
+    border-radius: 5px;
+}
+.element .program-name{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+.program-name h3{
+    font-family: futura-pt, sans-serif;
+    font-weight: bold;
+    text-transform: capitalize;
+    font-size: 17px;
+    text-align: center;
+}
+.program-name button{
+    border: none;
+    outline: none;
+    background: none;
+    cursor: pointer;
+}
+.program-name i{
+    color: white;
+    font-size: 20px;
+}
+.element .program-info{
+    padding: 10px 20px;
+    animation: animate .7s;
+}
+.answer {
+    background-color: white;
+    border:  3px solid #f29f9f;
+    padding: 2px;
+}
+
+p{
+    font-family: futura-pt, sans-serif;
+    color: #5a4748;
+    padding: 2px;
+}
+.hideText{
+    display: none;
+}
+@keyframes animate{
+    from{
+        opacity: 0;
+        transform: scale(0.6);
+    }
+    to{
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
+h4 {
+    font-family: quimby-gubernatorial, sans-serif;
+}
+
+h5 {
+    font-family: 'futura-pt', sans-serif;
+    color: #5a4748;
+}
+
+
+.impact h4,
+.impact p, 
+.code h4,
+.code p,
+.sisterhood h4,
+.sisterhood p,
+.build-sisterhood h4,
+.build-sisterhood p,
+.build-leadership h4, 
+.build-leadership p,
+.build-career h4,
+.build-career p,
+.build-skills h4,
+.build-skills p,
+.build-community h4,
+.build-community p,
+.build-network h4,
+.build-network p
+ {
+    padding: 5px;
+    background-color: #F29F9F;
+    color: white;
+    max-width: 200px;
+    text-align: center;
+}
+
+.build-sisterhood h4,
+.build-sisterhood p,
+.build-leadership h4, 
+.build-leadership p,
+.build-career h4,
+.build-career p,
+.build-skills h4, 
+.build-skills p,
+.build-community h4, 
+.build-community p,
+.build-network h4,
+.build-network p {
+    max-width: 170px;
+}
+
+.impact, 
+.code,
+.sisterhood {
+    padding: 4px;
+}
+
+.build-sisterhood,
+.build-leadership,
+.build-career {
+    padding: 2px;
+}
+
+.build-skills, 
+.build-community, 
+.build-network {
+    padding: 2px;
+}
+/*************Programs Page Styling************/
+/*************MEDIA QUERY 320PX***************/
+@media (min-width: 320px) {
+    .container {
+        width: 300px;
+    }
+
+    .girls-laptop,
+    .college-student,
+    .group-pic{
+        width: 80%;
+        margin-left: 25px;
+    }
+
+    .pink-text-boxes {
+        display: flex;
+        flex-direction: column;
+        text-align: -webkit-center;
+    }
+
+    .early-grades,
+    .older-grades,
+    .start-loops,
+    .loops-president,
+    .live-webinars,
+    .rec-webinar {
+        max-width: 85%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 5px;
+    }
+}
+/*************MEDIA QUERY 700PX**************/
+@media (min-width: 700px) {
+    .container {
+        width: 600px;
+    }
+
+    .girls-laptop, 
+    .college-student, 
+    .group-pic {
+        width: 45%;
+        margin-left: 150px;
+        padding: 15px;
+    }
+
+    .pink-text-boxes {
+        display: flex;
+        justify-content: space-around;
+        flex-direction: row;
+    }
+
+    .early-grades, 
+    .older-grades,
+    .live-webinars,
+    .rec-webinar,
+    .start-loops,
+    .loops-president {
+        max-width: 40%;
+        margin: 25px;
+        padding: 2px;
+        display: inline-grid;
+    }
+}
