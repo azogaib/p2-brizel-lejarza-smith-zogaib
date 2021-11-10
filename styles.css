@@ -16,6 +16,7 @@ header {
 img {
     width: 50%;
     padding: 10px 10px 20px 35px;
+    max-width: 250px;
 }
   
 .menuItem {
