@@ -1,12 +1,16 @@
-/******* Begin Universal Styling *******/
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-
-/* Begin Header */
+/*header styling*/
 header {
+<<<<<<< HEAD
+  font-family: futura-pt-heavy, sans-serif;
+  border-bottom-style: solid;
+  border-bottom-width: thick;
+  border-bottom-color: ae547b;
+=======
     font-family: futura-pt-heavy, sans-serif;
     border-bottom-style: solid;
     border-bottom-width: thick;
@@ -17,65 +21,92 @@ img {
     width: 50%;
     padding: 10px 10px 20px 35px;
     max-width: 250px;
+>>>>>>> 070afd67624c7f3dab4b1207002c185ed45a0484
 }
-  
+img{
+  width: 50%;
+  padding: 10px 10px 20px 35px;
+}
+
 .menuItem {
-    display: block;
-    margin: 2rem 4rem;
-    font-size: 1.5rem;
-    font-variant: small-caps;
-    color: #f29f9f;
-    text-decoration: none;
-  }
-  
-  .menuItem:hover {
-    color:#ae547b;
-  }
-  
-  .hamburger {
-    position: fixed;
-    z-index: 100;
-    top: 1rem;
-    right: 1rem;
-    padding: 4px;
-    border: none;
-    color: #f29f9f;
-    background: none;
-    cursor: pointer;
-  }
-  
-  .closeIcon {
-    display: none;
-    color: #f29f9f;
-  }
-  
-  
-  .menu {
-    position: fixed;
-    transform: translateY(-100%);
-    transition: transform 0.2s;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    z-index: 99;
-    color: #ae547b;
-    list-style: none;
-    padding-top: 4rem;
-  }
-  
-  .showMenu {
-    transform: translateY(0);
-  }
-/* End Header */
+  display: block;
+  margin: 2rem 4rem;
+  font-size: 1.5rem;
+  font-variant: small-caps;
+  color: #f29f9f;
+  text-decoration: none;
+}
+
+.menuItem:hover {
+  color:#ae547b;
+}
+
+.hamburger {
+  position: fixed;
+  z-index: 100;
+  top: 1rem;
+  right: 1rem;
+  padding: 4px;
+  border: none;
+  color: #f29f9f;
+  background: none;
+  cursor: pointer;
+}
+
+.closeIcon {
+  display: none;
+  color: #f29f9f;
+}
 
 
-/* Begin Footer */
+.menu {
+  position: fixed;
+  transform: translateY(-100%);
+  transition: transform 0.2s;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 99;
+  color: #ae547b;
+  list-style: none;
+  padding-top: 4rem;
+}
+
+.showMenu {
+  transform: translateY(0);
+}
+
+/*footer styling*/
+
+footer {
+    background-color: #fafafa;
+    text-align: center;
+    padding-top: 7px;
+    border-top-style: solid;
+    border-top-width: thin;
+    border-top-color: ae547b;
+}
+
+.footer-logo {
+    width: 30%;
 
 
+}
+.social-icons {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+}
 
-/* End Footer */
-
+li {
+        width: 40%;
+        padding-bottom: 8px;
+}
+.fab {
+    color:#F29F9F;
+}
+ 
 /******* End Universal Styling *******/
 
 /******* Begin Home Page *******/
