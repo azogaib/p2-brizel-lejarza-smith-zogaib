@@ -270,7 +270,30 @@ h5 {
   .alert {
     opacity: 1;
     transition: opacity 0.6s; /* 600ms to fade out */
+    text-align: center;
   }
+
+  .alert h2 {
+    color:#F29F9F;
+    }
+
+ .alert h1 {
+        font-size: 3rem;
+        font-family: quimby-gubernatorial, sans-serif;
+        }
+
+ .alert p {
+    color: white;
+    }
+
+ input, button {
+  padding: 6px 12px;
+    }
+
+ .fa-laptop-house {
+    color: #F29F9F;
+    padding: 1%;
+}
   
   input, button {
     padding: 6px 12px;
@@ -305,6 +328,18 @@ h5 {
       font-family: quimby-gubernatorial, sans-serif;
       text-align: center;
       font-size: 1.5rem;
+  }
+
+  #link {
+      font-family: futura-pt;
+      text-decoration: none;
+      padding: 30px 0 10px;
+      color:#ae547b;
+  }
+
+  #link:hover {
+      transition: .5s ease;
+      text-decoration: underline;
   }
 /******* End Locations Page *******/
 
