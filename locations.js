@@ -47,6 +47,6 @@ function renderResults(res) {
  resultDiv.textContent = JSON.stringify(res[0].name)
 
  var link = document.getElementById('link')
- link.textContent = res[0].web_pages
+ link.textContent = res[0].domains
  locationEl.appendChild(link)
 }
