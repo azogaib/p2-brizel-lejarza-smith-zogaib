@@ -72,6 +72,33 @@ img {
 
 /* Begin Footer */
 
+footer {
+    background-color: #fafafa;
+    text-align: center;
+    padding-top: 7px;
+    border-top-style: solid;
+    border-top-width: thin;
+    border-top-color: ae547b;
+}
+
+.footer-logo {
+    width: 30%;
+
+
+}
+.social-icons {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+}
+
+li {
+        width: 40%;
+        padding-bottom: 8px;
+}
+.fab {
+    color:#F29F9F;
+}
 
 
 /* End Footer */
