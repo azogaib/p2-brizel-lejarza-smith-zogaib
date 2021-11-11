@@ -30,16 +30,19 @@ formEl.onsubmit = function(e) {
   e.preventDefault()
   var locationQuery = inputEl.value.trim()
   if (!locationQuery) return
-  fetch('https://dev.virtualearth.net/REST/v1/LocalSearch/?key=AsCUWWBo1QXafzTuhNUA0bI_1XJe1suHmn1_LdIjPlAYZhsb5VN8FBRbH2kOssMY&q=' + locationQuery)
+  fetch(`http://universities.hipolabs.com/search?name=` + locationQuery)
+  .then(res => res.json())
   .then(function(res) {
-    return res.json()
-  })
-  .then(function(res) {
-    console.log(res)
+    renderResults(res)
+    console.log(res[0])
     renderLocation(res)
     inputEl.value = ""
   })
   .catch(function(err) {
     console.log(err)
   })
+}
+function renderResults(res) {
+ var resultDiv = document.getElementById('results');
+ resultDiv.textContent = JSON.stringify(res[0].name)
 }
