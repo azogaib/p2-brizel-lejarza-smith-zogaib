@@ -45,4 +45,8 @@ formEl.onsubmit = function(e) {
 function renderResults(res) {
  var resultDiv = document.getElementById('results');
  resultDiv.textContent = JSON.stringify(res[0].name)
+
+ var link = document.getElementById('link')
+ link.textContent = res[0].web_pages
+ locationEl.appendChild(link)
 }
