@@ -5,6 +5,10 @@
     box-sizing: border-box;
 }
 
+.desktop-menu {
+    display: none;
+}
+
 /* Begin Header */
 header {
     font-family: futura-pt-heavy, sans-serif;
@@ -63,6 +67,9 @@ img {
     color: #ae547b;
     list-style: none;
     padding-top: 4rem;
+    background-color: white;
+    max-width: 250px;
+    max-height: 400px;
   }
   
   .showMenu {
@@ -407,6 +414,38 @@ h5 {
 
 /* Begin 700px */
 @media (min-width: 700px) {
+    
+    .hamburger, 
+    .closeIcon {
+        display: none;
+    }
+
+    header {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .desktop-menu {
+        display: block;
+        list-style-type: none;
+        margin-top: 50px;
+    }
+
+    .desktop-menu li {
+        display: inline;
+        padding: 40px;
+    }
+
+    .desktop-menu li a {
+        font-family: futura-pt, sans-serif;
+        color: #f29f9f;
+        text-decoration: none;
+    } 
+
+    .desktop-menu li a:hover {
+        color:#ae547b;
+    }
+      
     .container {
         width: 600px;
     }
