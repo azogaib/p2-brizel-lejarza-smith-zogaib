@@ -18,7 +18,7 @@ header {
     background: #fafafa;
   }
 
-img {
+header img {
     width: 50%;
     padding: 10px 10px 20px 35px;
     max-width: 250px;
@@ -54,7 +54,6 @@ img {
     color: #f29f9f;
   }
   
-  
   .menu {
     position: fixed;
     transform: translateY(-100%);
@@ -79,7 +78,6 @@ img {
 
 
 /* Begin Footer */
-
 footer {
     background-color: #fafafa;
     text-align: center;
@@ -91,8 +89,6 @@ footer {
 
 .footer-logo {
     width: 50%;
-
-
 }
 .social-icons {
     display: flex;
@@ -100,25 +96,91 @@ footer {
     list-style-type: none;
 }
 
-li {
+footer li {
         width: 100%;
         padding-bottom: 8px;
 }
+
 .fab {
     color:#F29F9F;
 }
-
-
 /* End Footer */
 
 /******* End Universal Styling *******/
 
+
+
 /******* Begin Home Page *******/
 
+/* 3 columns begin */
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+header *,
+header *:before,
+header *:after {
+    -webkit-box-sizing: content-box !important;
+    -moz-box-sizing: content-box !important;
+    box-sizing: content-box !important;
+}
 
 
+@media (min-width: 800px) {
+  .background {
+    padding: 0 0 25px;
+  }
+}
+
+.learnmore-container {
+  max-width: 960px;
+  width: 100%;
+}
+
+.panel {
+  position: relative;
+  width: 100%;
+  z-index: 10;
+}
+
+.learnmore-table {
+  display: flex;
+  flex-direction: column;
+}
+
+@media (min-width: 800px) {
+  .learnmore-table {
+    flex-direction: row;
+  }
+}
+
+.learnmore-table * {
+  text-align: center;
+}
+
+@media (min-width: 800px) {
+  .learnmore-program {
+    flex-basis: 100%;
+    padding: 25px 50px;
+  }
+}
+
+.learnmore-description-item {
+	list-style-type: none;
+}
+
+.learnmore-link {
+  display: block;
+}
+/* 3 columns end */
 
 /******* End Home Page *******/
+
+
 
 /******* Begin Programs Page *******/
 .page-title h1 {
@@ -146,7 +208,7 @@ body {
     margin-right: auto;
 }
 
-.element{
+.element {
     padding: 10px;
     background: #ae547b;
     color: white;
@@ -185,20 +247,21 @@ body {
     padding: 2px;
 }
 
-p{
+.container p {
     font-family: futura-pt, sans-serif;
     color: #5a4748;
     padding: 2px;
 }
-.hideText{
+.hideText {
     display: none;
 }
+
 @keyframes animate{
-    from{
+    from {
         opacity: 0;
         transform: scale(0.6);
     }
-    to{
+    to {
         opacity: 1;
         transform: scale(1);
     }
@@ -272,6 +335,8 @@ h5 {
     padding: 2px;
 }
 /******* End Programs Page *******/
+
+
 
 /******* Begin Locations Page *******/
 .alert {
@@ -379,6 +444,8 @@ h5 {
   }
 /******* End Locations Page *******/
 
+
+
 /******* BEGIN MEDIA QUERIES *******/
 /* Begin 320px */
 @media (min-width: 320px) {
@@ -419,13 +486,15 @@ h5 {
 }
 /* End 320px */
 
+/* Begin 500px */
 @media (min-width: 500px) {
-    li {
+    header li {
         width: 40px;
         padding-bottom: 8px;
         padding-left: 25px;
+    }
 }
-}
+/* End 500px */
 
 /* Begin 700px */
 @media (min-width: 700px) {
@@ -491,11 +560,11 @@ h5 {
         display: inline-grid;
     }
 
-    li {
+    header li {
         width: 40px;
         padding-bottom: 8px;
         padding-left: 25px;
-}
+    }
 }
 /* End 700px */
 /******* END MEDIA QUERIES *******/
