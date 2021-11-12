@@ -111,8 +111,22 @@ footer li {
 
 
 /******* Begin Home Page *******/
+/* hero section begin */
+.hero-section-mobile img {
+    width: 50%;
+}
+/* hero section end */
 
-/* 3 columns begin */
+/* video section begin */
+.video-section {
+    background-color:#f29f9f;
+}
+/* video section end */
+
+/* 3 columns section begin */
+.column-section {
+    background-color: white;
+}
 html {
   box-sizing: border-box;
 }
@@ -178,6 +192,19 @@ header *:after {
 }
 /* 3 columns end */
 
+/* testimonial section begin */
+.testimonial-section {
+    background-color:#ae547b;
+}
+
+.testimonial-section img {
+    width: 50%;
+}
+/* testimonial section end */
+
+/* emoji section begin */
+
+/* emoji section end */
 /******* End Home Page *******/
 
 
