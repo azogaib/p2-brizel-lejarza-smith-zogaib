@@ -49,6 +49,11 @@ header img {
     cursor: pointer;
   }
   
+  .menuIcon.material-icons, .closeicon.material-icons {
+    line-height: 3;
+    font-size: 30px;
+    font-weight: bold;
+  }
   .closeIcon {
     display: none;
     color: #f29f9f;
@@ -89,6 +94,7 @@ footer {
 
 .footer-logo {
     width: 150px;
+    padding-bottom: 20px;
 }
 .social-icons {
     display: flex;
@@ -225,7 +231,6 @@ body {
 }
 
 .container {
-    width: 600px;
     max-width: 600px;
     height: auto;
     padding: 10px;
@@ -482,9 +487,6 @@ h5 {
         display: none;
     }
     
-    .container {
-        width: 300px;
-    }
 
     .girls-laptop,
     .college-student,
@@ -551,6 +553,7 @@ h5 {
         font-family: futura-pt, sans-serif;
         color: #f29f9f;
         text-decoration: none;
+        font-variant: small-caps;
     } 
 
     .desktop-menu li a:hover {
@@ -594,6 +597,7 @@ h5 {
     }
     .footer-logo {
         width: 200px;
+        
     }
 }
 /* End 700px */
