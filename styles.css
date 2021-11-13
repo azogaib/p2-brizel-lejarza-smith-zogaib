@@ -110,6 +110,12 @@ footer li {
 .fab {
     color:#F29F9F;
 }
+
+.loc-footer {   
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
 /* End Footer */
 
 /******* End Universal Styling *******/
