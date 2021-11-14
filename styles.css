@@ -273,10 +273,55 @@ header *:after {
 /* testimonial section begin */
 .testimonial-section {
     background-color:#ae547b;
+    color: white;
+    font-family: futura-pt, sans-serif;
 }
 
-.testimonial-section img {
+.testimonial-section span {
+    font-family: quimby-gubernatorial, sans-serif;
+}
+
+.testimonial-header {
+    font-size: 1.5em;
+    padding: 15%;
+}
+
+.testimonial-1 p, .testimonial-2 p {
+    background-color:#F29F9F;
+    border: 2px solid white;
+}
+
+.testimonial-1 p {
+    margin: 0 30% 5% 15%;
+    padding: 7%;
+}
+
+.testimonial-1 img {
     width: 50%;
+    margin: -10% 15% 0 30%;
+}
+
+.testimonial-1 figcaption {
+    width: 50%;
+    margin: 3% 15% 5% 30%;
+    padding: 0 0 10%;
+}
+
+.testimonial-2 p {
+    margin: 0 30% 5% 15%;
+    padding: 7%;
+}
+
+.testimonial-2 img {
+    width: 50%;
+    margin: -10% 15% 0 30%;
+}
+
+.testimonial-2 figcaption {
+    width: 50%;
+    margin: 3% 15% 5% 30%;
+    padding: 0 0 20%;
+
 }
 /* testimonial section end */
 
