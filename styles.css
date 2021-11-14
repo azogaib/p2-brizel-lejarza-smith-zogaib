@@ -321,12 +321,40 @@ header *:after {
     width: 50%;
     margin: 3% 15% 5% 30%;
     padding: 0 0 20%;
-
 }
 /* testimonial section end */
 
 /* emoji section begin */
+.emoji-imgs {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 20% 15% 0;
+}
 
+.emoji-imgs img {
+    width: 50%;
+}
+
+.emoji-caption {
+    margin: 15% 20% 20%;
+    font-family: futura-pt, sans-serif;
+}
+
+.emoji-caption p {
+    color: #ae547b;
+    margin: 15% 0;
+}
+
+.emoji-caption a {
+    background-color: #AE547B;
+    color: white;
+    border-style: none;
+    padding: 9px 14px;
+    margin: 2% 10%;
+    text-decoration: none;
+    text-transform: uppercase;
+
+}
 /* emoji section end */
 /******* End Home Page *******/
 
