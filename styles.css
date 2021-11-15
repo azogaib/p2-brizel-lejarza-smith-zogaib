@@ -185,11 +185,11 @@ video {
 /* 3 columns section begin */
 .column-section {
     background-color: white;
-    padding-bottom: 15%;
+    padding-bottom: 80px;
 }
 
 .learnmore-heading {
-    padding: 15% 15% 0 15%;
+    padding: 80px 15% 0 100px;
     margin-bottom: -50px;
 }
 
@@ -294,7 +294,7 @@ html {
 
 .testimonial-header {
     font-size: 1.5em;
-    padding: 15%;
+    padding: 75px;
 }
 
 .testimonial-1 p, .testimonial-2 p {
@@ -788,6 +788,24 @@ h5 {
         width: 100%;
     }
 
+    /* 3 columns section */
+    .learnmore-heading {
+        padding: 80px 15% 0 30%;
+    }
+
+    /* testimonial section */
+    .testimonial-header {
+        padding: 8% 30%;
+    }
+    .testimonial-container {
+        display: flex;
+        padding: 0 10%;
+    }
+    .testimonial-section {
+        padding-bottom: 30px;
+    }
+
+    /* emoji section */
 }
 /* End 800px */
 /******* END MEDIA QUERIES *******/
