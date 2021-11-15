@@ -30,7 +30,7 @@ formEl.onsubmit = function(e) {
   e.preventDefault()
   var locationQuery = inputEl.value.trim()
   if (!locationQuery) return
-  fetch(`http://universities.hipolabs.com/search?name=` + locationQuery)
+  fetch(`https://universities.hipolabs.com/search?name=` + locationQuery)
   .then(res => res.json())
   .then(function(res) {
     renderResults(res)
