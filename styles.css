@@ -826,12 +826,13 @@ h5 {
     }
 
     .emoji-caption {
-        margin: 5% 15% 5% 0%;
+        margin: 8% 15% 5% 0%;
         width: 50%;
     }
     
     .emoji-caption p {
         margin: 15% 0;
+        font-size: 1.2em;
     }
     
     .emoji-caption a {
