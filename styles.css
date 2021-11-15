@@ -365,6 +365,10 @@ html {
     text-transform: uppercase;
     margin: 0 10%;
 }
+
+.emoji-caption a:hover {
+    background-color: #AE547B;
+}
 /* emoji section end */
 /******* End Home Page *******/
 
@@ -806,7 +810,33 @@ h5 {
     }
 
     /* emoji section */
+    .emoji-section {
+        display: flex;
+    }
+
+    .emoji-imgs {
+        display: flex;
+        flex-wrap: wrap;
+        margin: 10% 10% 10% 15%;
+        width: 50%;
+    }
     
+    .emoji-imgs img {
+        width: 30%;
+    }
+
+    .emoji-caption {
+        margin: 5% 15% 5% 0%;
+        width: 50%;
+    }
+    
+    .emoji-caption p {
+        margin: 15% 0;
+    }
+    
+    .emoji-caption a {
+        margin: 0 8%;
+    }
 }
 /* End 800px */
 /******* END MEDIA QUERIES *******/
