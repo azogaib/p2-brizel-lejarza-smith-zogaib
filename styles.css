@@ -116,6 +116,11 @@ footer li {
     bottom: 0;
     width: 100%;
 }
+
+footer p {
+    padding: 1% 20% 3%;
+    color: #ae547b;
+}
 /* End Footer */
 
 /******* End Universal Styling *******/
